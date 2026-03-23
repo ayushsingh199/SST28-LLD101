@@ -13,17 +13,18 @@ A Java-based project demonstrating core Object-Oriented Design Patterns through 
 
 pen-factory-writing-instruments  
 └── src  
-    └── main  
-        └── java  
-            └── pen  
-                ├── WritingInstrument.java  
-                ├── Pen.java  
-                ├── BallPen.java  
-                ├── GelPen.java  
-                ├── FountainPen.java  
-                ├── GripPenDecorator.java  
-                ├── PenFactory.java  
-                └── PenDemo.java  
+&ensp;&ensp;└── main  
+&ensp;&ensp;&ensp;&ensp;└── java  
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;└── pen  
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;├── WritingInstrument.java  
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;├── Pen.java  
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;├── BallPen.java  
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;├── GelPen.java  
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;├── FountainPen.java  
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;├── GripPenDecorator.java  
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;├── PenFactory.java  
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;└── PenDemo.java  
+
 
 ## 🧩 Core Components
 
