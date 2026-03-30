@@ -1,13 +1,14 @@
 package pen;
 
-// Different refill / ink usage behaviour
+
+
 public class FountainPen extends Pen {
 
     public FountainPen(String color, boolean hasCap, boolean hasClip) {
         super("fountain", color, hasCap, hasClip);
     }
 
-    // Fountain pens consume more ink per write
+    
     @Override
     public void write(String s) throws Exception {
         if (!isStarted) {
@@ -21,12 +22,12 @@ public class FountainPen extends Pen {
         }
 
         System.out.println(s + " is being written by a fountain pen in color " + color);
-        int consumption = 20; // custom consumption
+        int consumption = 20; 
         inkLevel = Math.max(0, inkLevel - consumption);
         System.out.println("Ink remaining (fountain): " + inkLevel);
     }
 
-    // Different refill rules (example rule)
+    
     @Override
     public void refill(String color) throws Exception {
         if (!isClosed) {
